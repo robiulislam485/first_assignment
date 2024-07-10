@@ -239,4 +239,58 @@ text-align: center;
     margin: 32px;
 }
 /* inspiration section end */
+/* target section start */
+.target-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 49px;
+}
+.current-container{
+    width: 1140px;
+height: 463px;
+border: 2px solid red;
+}
+.current-container h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
+.current-container p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.target-container .target-one{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 40px;
+background-color: rgba(255, 76, 30, 0.05);
 
+}
+.target-container .target-two{
+    background-color: rgba(0, 76, 232, 0.05);
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+}
+.target-container .target-three{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+background-color: rgba(255, 223, 0, 0.05);
+}
+.target-container .target-one .target-two .target-three{
+    border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+}
