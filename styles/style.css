@@ -414,3 +414,68 @@ align-items: center;
 padding: 0px;
 }
 /* my next target end */
+/* i need support section start */
+.form-container{
+    width: 1140px;
+    height: 314px;
+    margin-top: 120px;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 64px 48px ;
+    border-radius: 16px;
+}
+.feedback{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+padding: 20px 19px;
+width: 548px;
+height: 57px;
+}
+.submit{
+    border-radius: 8px;
+
+background: rgb(255, 255, 255);
+width: 120px;
+height: 58px;
+}
+.form-container h2{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.form-container p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.form-container h2 p{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+}
+.submit-text{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+gap: 10px;
+}
+/* support section end */
+/* footer section start */
+
