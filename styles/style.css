@@ -248,7 +248,6 @@ text-align: center;
 .current-container{
     width: 1140px;
 height: 463px;
-border: 2px solid red;
 }
 .current-container h2{
     color: rgb(13, 19, 33);
@@ -294,3 +293,124 @@ background-color: rgba(255, 223, 0, 0.05);
 
 background: rgba(255, 76, 30, 0.05);
 }
+.target-container a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+}
+/* my next target start */
+.next-container{
+    width: 1140px;
+height: 871px;
+margin-top: 111px;
+}
+.next-container h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
+.next-container p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+}
+.next-one {
+    width: 1140px;
+height: 220px;
+border: 1px solid black;
+margin-top: 50px;
+}
+.next-one h4{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+}
+.next-one p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.next-one a{
+   
+}
+.next-one{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+
+.next-two {
+    width: 1140px;
+height: 220px;
+border: 1px solid black;
+margin-top: 24px;
+}
+.next-two h4{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+}
+.next-two p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.next-two a{
+   
+}
+.next-two{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+
+.next-three {
+    width: 1140px;
+height: 220px;
+border: 1px solid black;
+margin-top: 24px;
+}
+.next-three h4{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+}
+.next-three p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.next-three a{
+   
+}
+.next-three{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+/* my next target end */
