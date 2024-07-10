@@ -83,7 +83,7 @@ text-align: center;
 }
 .web-container{
     width: 1140px;
-height: 1300px;
+/* height: 1300px; */
 margin: 0 auto;
 margin-top: 74px;
 background-color: rgba(13, 19, 33, 0.02);
@@ -481,8 +481,16 @@ gap: 10px;
 /* support section end */
 /* footer section start */
 .foot-design{
-width: 1440px;
-border: 2px solid red;
+    width: 1440px;
 margin: 0 auto;
+margin-top: 80px;
+display: flex;
+justify-content: space-between;
+background-color: rgba(13, 19, 33, 0.03);
+}
+.footer-image{
+display: flex;
+justify-content: space-between;
+gap: 20px;
 }
 
